@@ -4,7 +4,9 @@ A closed-loop ball balancing system using an ultrasonic sensor, servo motor, and
 
 ## Demo
 
-*(Add GIF or photo here)*
+
+https://github.com/user-attachments/assets/a7be61a5-dee0-4388-ae0d-bb8cbe6352cf
+
 
 📁 See `/Media/Photos` and `/Media/Videos` for system footage.
 
