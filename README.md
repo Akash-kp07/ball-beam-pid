@@ -86,7 +86,7 @@ pos:14.87,target:15.00,servo:46
 
 ```
 Code/
-└── sketch_apr16a.ino   # Main Arduino sketch
+└── ball_beam_pid.ino   # Main Arduino sketch
 Media/
 ├── Photos/             # System photos
 └── Videos/             # Demo videos
@@ -97,7 +97,7 @@ Media/
 ## Getting Started
 
 1. Wire hardware per pin table above
-2. Open `Code/sketch_apr16a.ino` in Arduino IDE
+2. Open `Code/ball_beam_pid.ino` in Arduino IDE
 3. Upload to Arduino
 4. Open Serial Monitor at **9600 baud**
 5. Send target distance (e.g. `15.0`) to begin
