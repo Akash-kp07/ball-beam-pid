@@ -8,8 +8,6 @@ A closed-loop ball balancing system using an ultrasonic sensor, servo motor, and
 https://github.com/user-attachments/assets/a7be61a5-dee0-4388-ae0d-bb8cbe6352cf
 
 
-📁 See `/Media/Photos` and `/Media/Videos` for system footage.
-
 ---
 
 ## How It Works
@@ -79,14 +77,34 @@ Serial output format (for real-time plotting):
 ```
 pos:14.87,target:15.00,servo:46
 ```
+---
 
+## Web GUI
+
+Flask-based browser interface for live control.
+- Slider to set target distance (5–22 cm)
+- Live position readback every 200ms
+- Runs on http://localhost:5000
+
+Setup:
+```
+  cd Code/controller
+  bash setup.sh
+  source venv/bin/activate
+  python app.py
+
+```
 ---
 
 ## Code Structure
 
 ```
 Code/
-└── ball_beam_pid.ino   # Main Arduino sketch
+├── ball_beam_pid/
+|   └── ball_beam_pid.ino
+└── controller/
+    ├── app.py
+    └── setup.sh
 Media/
 ├── Photos/             # System photos
 └── Videos/             # Demo videos
@@ -104,7 +122,6 @@ Media/
 
 ---
 
-## Author
-
-**Akash KP** — Embedded Systems & Robotics Developer  
-[GitHub](https://github.com/Akash-kp07)
+## Team
+- [Akash KP](https://github.com/Akash-kp07)
+- [Abhik Allingil](https://github.com/abhikallingil)
